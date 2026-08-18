@@ -31,7 +31,7 @@ public class Livro {
         this.disponivel = disponivel;
     }
 
-    @Override
+    
     public String toString() {
         return titulo + " - " + autor + " (ISBN: " + isbn + ") | Disponível: " + (disponivel ? "Sim" : "Não");
     }
